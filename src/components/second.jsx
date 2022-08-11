@@ -11,7 +11,7 @@ const Second=()=>{
             {
             datos.map((dato, indice)=>{
                 console.log("El dato "+dato + " está en el indice "+indice);
-                //We create a new array with de positiones to the previous array
+                //we create to array with the positions to the previous array
                 posicionesDatos.push(indice);
                 
             })}
